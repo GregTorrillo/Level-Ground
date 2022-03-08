@@ -114,6 +114,7 @@ padding-right: 30px;
   font-size: 14px;
   font-weight: 600;
   border: 1px solid #161F2A;
+	letter-spacing: 1px;
 }
 /******************************************
 /* MAIN
@@ -145,20 +146,19 @@ padding-right: 30px;
   margin: 20px 200px;
 }
 .main-video {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   color: #F1F1F1;
-  text-shadow: 3px 3px 3px #161F2A;
 }
 .play-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .circle-play-icon {
-  width: 10%;
+  width: 15%;
 }
 
 /******************************************
@@ -239,6 +239,7 @@ padding-right: 30px;
   margin-top: 15px;
   font-size: 14px;
   font-weight: 600;
+	letter-spacing: 1px;
 }
 
 /******************************************
@@ -264,7 +265,43 @@ padding-right: 30px;
   border: 1px solid #161F2A;
   font-size: 14px;
   font-weight: 600;
+	letter-spacing: 1px;
 }
+
+/******************************************
+/* MIDDLE-THREE
+/*******************************************/
+.middleFour {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	background-image: url(../images/rope.jpg);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 200px;
+}
+.middleFour h2 {
+	font-size: 80px;
+  font-weight: 400;
+  color: #F1F1F1;
+  text-shadow: 3px 3px 5px #161F2A;
+}
+.middleFour button {
+	width: 160px;
+  height: 50px;
+  background: #66768A;
+  color: white;
+  border-radius: 4px;
+  margin-top: 35px;
+  border: 1px solid #161F2A;
+  font-size: 14px;
+  font-weight: 600;
+	letter-spacing: 1px;
+}
+
 /******************************************
 /* BOTTOM
 /*******************************************/
